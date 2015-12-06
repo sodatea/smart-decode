@@ -94,3 +94,5 @@ bower_components
 .bower-registry
 .bower-tmp
 
+.idea
+release

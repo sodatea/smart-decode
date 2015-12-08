@@ -1,5 +1,5 @@
 {
-  "name": "smart-decode",
+  "name": "smart-encoding",
   "version": "0.0.1",
   "description": "Auto detect and convert buffer encodings",
   "main": "index.js",

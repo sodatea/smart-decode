@@ -1,21 +1,26 @@
 {
-  "name": "smart-encoding",
+  "name": "smart-encoding-convert",
   "version": "0.0.1",
   "description": "Auto detect and convert buffer encodings",
   "main": "index.js",
   "scripts": {
+    "pretest": "npm run build",
     "test": "tape \"release/**/__tests__/*.spec.js\"",
     "build": "babel lib -d release --presets es2015-node4"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sodatea/smart-decode.git"
+    "url": "git+https://github.com/sodatea/smart-encoding-convert.git"
   },
   "author": "Haoqun Jiang <sodazju+npm@gmail.com>",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "encoding": "^0.1.11",
+    "jschardet": "^1.4.1"
+  },
   "devDependencies": {
     "babel": "^6.1.18",
+    "babel-cli": "^6.3.15",
     "babel-eslint": "^4.1.6",
     "babel-preset-es2015-node4": "^2.0.2",
     "eslint": "^1.10.2",

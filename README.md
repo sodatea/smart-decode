@@ -1,5 +1,7 @@
 # smart-encoding
 
+[![Build Status](https://travis-ci.org/sodatea/smart-encoding-convert.svg?branch=master)](https://travis-ci.org/sodatea/smart-encoding-convert)
+
 Inspired by [buffer-encoding](https://github.com/fritx/buffer-encoding), but with clearer interface and `minConfidence` support.
 
 ## Install

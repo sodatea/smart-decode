@@ -1,18 +1,19 @@
-# smart-encoding
-
+[![NPM Version](https://img.shields.io/npm/v/smart-encoding-convert.svg)](https://www.npmjs.com/package/smart-encoding-convert)
 [![Build Status](https://travis-ci.org/sodatea/smart-encoding-convert.svg?branch=master)](https://travis-ci.org/sodatea/smart-encoding-convert)
+
+# smart-encoding-convert
 
 Inspired by [buffer-encoding](https://github.com/fritx/buffer-encoding), but with clearer interface and `minConfidence` support.
 
 ## Install
 
-`npm install smart-decode`
+`npm install smart-encoding-convert`
 
 ## Usage
 
 ```javascript
 import fs from 'fs';
-import convert from 'smart-encoding';
+import convert from 'smart-encoding-convert';
 
 var buf = fs.readFileSync('someFile');
 

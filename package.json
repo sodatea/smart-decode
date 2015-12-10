@@ -1,8 +1,8 @@
 {
   "name": "smart-encoding-convert",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Auto detect and convert buffer encodings",
-  "main": "index.js",
+  "main": "release/index.js",
   "scripts": {
     "pretest": "npm run build",
     "test": "tape \"release/**/__tests__/*.spec.js\"",

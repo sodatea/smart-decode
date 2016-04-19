@@ -1,1 +1,3 @@
 extends: soda/node
+parserOptions:
+    sourceType: module
